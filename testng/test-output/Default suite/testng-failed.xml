@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listeners.TestClass">
+      <class name="com.epam.testng.FirstTestCase">
         <methods>
-          <include name="test2"/>
-          <include name="test3"/>
+          <include name="addCustomer"/>
         </methods>
-      </class> <!-- listeners.TestClass -->
+      </class> <!-- com.epam.testng.FirstTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,12 +1,12 @@
 
-p	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ—ş¸şÿÿÿÿ8û—ËÍØ1H+RMAJORZ
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ—ş¸şÿÿÿÿ8û—ËÍØ1H¬+RMAJORZ
 CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(¥ê–8û—ËÍØ1HŒ+RMAJORZ
+p	java:S106	"9Replace this use of System.out or System.err by a logger.( ÀÏ¢ÿÿÿÿÿ8û—ËÍØ1H­+RMAJORZ
 CODE_SMELL
-p	java:S106	"9Replace this use of System.out or System.err by a logger.( ÀÏ¢ÿÿÿÿÿ8û—ËÍØ1H‹+RMAJORZ
-CODE_SMELL
-x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(á¾Ü“H‡+RMINORZ
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¥ê–8û—ËÍØ1H®+RMAJORZ
 CODE_SMELL
 a
-java:S1144")Remove this unused private "test" method.(ÿØ¼ßúÿÿÿÿ8û—ËÍØ1H+RMAJORZ
+java:S1144")Remove this unused private "test" method.(ÿØ¼ßúÿÿÿÿ8û—ËÍØ1H¯+RMAJORZ
+CODE_SMELL
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(á¾Ü“H±+RMINORZ
 CODE_SMELL

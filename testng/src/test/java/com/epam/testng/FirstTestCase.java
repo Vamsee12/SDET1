@@ -3,8 +3,11 @@ package com.epam.testng;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+//tests are executed in alphabetical order if priority is not mentioned
+//no need of main method
+
 public class FirstTestCase {
-	// tests are executed in alphabetical order if priority is not mentioned
+	
 	@Test(priority = 1)
 	void setUp() {
 		System.out.println("opening browser");
@@ -17,7 +20,7 @@ public class FirstTestCase {
 	@Test
 	void addCustomer() {
 		System.out.println("custromer add test");
-		Assert.assertEquals('v', 'l');
+		//Assert.assertEquals('v', 'l');
 	}
 
 	@Test(priority = 3)

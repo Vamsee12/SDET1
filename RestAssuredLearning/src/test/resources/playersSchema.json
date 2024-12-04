@@ -1,0 +1,291 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "priceInCrores": {
+          "type": "integer"
+        },
+        "formats": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "location",
+        "title",
+        "priceInCrores",
+        "formats"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "priceInCrores": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "location",
+        "title",
+        "priceInCrores"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "priceInCrores": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "location",
+        "title",
+        "priceInCrores"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "priceInCrores": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "location",
+        "title",
+        "priceInCrores"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "priceInCrores": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "location",
+        "title",
+        "priceInCrores"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "priceInCrores": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "location",
+        "title",
+        "priceInCrores"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "priceInCrores": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "location",
+        "title",
+        "priceInCrores"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "priceInCrores": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "location",
+        "title",
+        "priceInCrores"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "priceInCrores": {
+          "type": "number"
+        },
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "name",
+        "location",
+        "title",
+        "priceInCrores",
+        "id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "priceInCrores": {
+          "type": "number"
+        },
+        "id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "name",
+        "location",
+        "title",
+        "priceInCrores",
+        "id"
+      ]
+    }
+  ]
+}

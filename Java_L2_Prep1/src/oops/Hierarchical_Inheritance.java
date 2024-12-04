@@ -33,7 +33,7 @@ class B extends A
 		
 		Hierarchical_Inheritance h = new Hierarchical_Inheritance();
 		h.testA();
-		h.testC();
+		h.testC();		
 		
  
 	}
