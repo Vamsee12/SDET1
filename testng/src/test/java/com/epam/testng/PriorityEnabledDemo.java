@@ -14,12 +14,12 @@ public class PriorityEnabledDemo {
 		System.out.println("Test2");
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2, enabled = false)
 	void testThree() {
 		System.out.println("Test3");
 	}
 
-	@Test(priority = 3, enabled = false)
+	@Test(priority = 3)
 	void testFour() {
 		System.out.println("Test4");
 	}

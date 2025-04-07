@@ -9,18 +9,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class ParalellTests {
 	WebDriver driver;
 
-	@BeforeClass
-	/*
-	 * void setUp() { System.setProperty("webdriver.chrome.driver",
-	 * "C:\\Selenium\\chromedriver_win32 (1)\\chromedriver.exe"); driver = new
-	 * ChromeDriver(); driver.get("https://www.cricbuzz.com/"); }
-	 */
 	@Test
-	void logoTest() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32 (1)\\chromedriver.exe");
+	public void logoTest() {
+		WebDriverManager.chromedriver().setup(); 
 		driver = new ChromeDriver();
 		driver.get("https://www.cricbuzz.com/");
 		WebElement logo = driver.findElement(By.xpath("//*[@id=\"cb-logo-main-menu\"]"));
@@ -28,27 +24,17 @@ public class ParalellTests {
 	}
 
 	@Test
-	void homepageTitle() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32 (1)\\chromedriver.exe");
+	public void homepageTitle() {
+		WebDriverManager.chromedriver().setup(); 		
 		driver = new ChromeDriver();
 		driver.get("https://www.cricbuzz.com/");
 		String title = driver.getTitle();
-		Assert.assertEquals(title, "Cricbuzz.com");
+		Assert.assertEquals(title, "Live Cricket Score, Schedule, Latest News, Stats & Videos | Cricbuzz.com");
 
 	}
 
-	@Test
-/*	void searchTest() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver_win32 (1)\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.get("https://www.cricbuzz.com/");
-		WebElement search = driver
-				.findElement(By.xpath("//*[@id=\"main-menu_search\"]/div/form/div[1]/div/div[1]/span[1]"));
-		Assert.assertFalse(search.isDisplayed(), "webelement displayed123");
-	}*/
 
-	@AfterMethod
-	void tearDown() {
-		driver.quit();
-	}
+	/*
+	 * @AfterMethod void tearDown() { driver.quit(); }
+	 */
 }

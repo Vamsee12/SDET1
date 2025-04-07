@@ -13,8 +13,8 @@
 			
 			<class name="com.epam.testng.TestngAnnotationsDemo2">
 			<methods>
-			<include name="test3"></include>
-			<include name="test4"></include>
+			<include name="test3"/>
+			<include name="test4"/>
 			</methods>
 			</class>
 			

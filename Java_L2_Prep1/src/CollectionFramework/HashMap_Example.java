@@ -15,6 +15,8 @@ public class HashMap_Example {
 		h.put(104, "ddd");
 		h.put(105, "eee");
 		
+		System.out.println(h);
+		
 		for(Map.Entry e : h.entrySet())
 		{
           //System.out.println(e);

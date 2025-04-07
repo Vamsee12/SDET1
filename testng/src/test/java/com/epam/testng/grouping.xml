@@ -9,8 +9,8 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="com.epam.testng.GroupingExample">
-			</class>
+			<class name="com.epam.testng.GroupingExample"/>
+			<!-- </class> -->
 		</classes>
 	</test>
 </suite>

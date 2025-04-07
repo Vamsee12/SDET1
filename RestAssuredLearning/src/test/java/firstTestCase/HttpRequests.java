@@ -25,7 +25,7 @@ public class HttpRequests {
 	{
 		given()
 
-		//get listusers from https://reqres.in/api/users?page=2
+		//get list users from https://reqres.in/api/users?page=2
 
 		.when()
 		.get("https://reqres.in/api/users?page=2")

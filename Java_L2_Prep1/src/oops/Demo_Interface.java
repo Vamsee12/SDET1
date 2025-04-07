@@ -13,6 +13,11 @@ interface A1
 	{
 		System.out.println("IA");
 	}
+	
+	static void demo()
+	{
+		System.out.println("static methods of interface cannot be overridden");
+	}
 }
 
 interface B1

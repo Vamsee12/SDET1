@@ -1,0 +1,94 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "suresh raina",
+      "location": "GL",
+      "title": "mr ipl",
+      "priceInCrores": 15,
+      "formats": [
+        "odi",
+        "test",
+        "t20i"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ricky ponting",
+      "location": "DC",
+      "title": "mr successful",
+      "priceInCrores": 5
+    },
+    {
+      "id": 3,
+      "name": "steve smith",
+      "location": "RR",
+      "title": "test goat",
+      "priceInCrores": 1.5
+    },
+    {
+      "id": 4,
+      "name": "Virat kohli",
+      "location": "RCB",
+      "title": "odi goat",
+      "priceInCrores": 20
+    },
+    {
+      "id": 5,
+      "name": "sachin tendulkar",
+      "location": "MI",
+      "title": "the goat",
+      "priceInCrores": 10
+    },
+    {
+      "id": 6,
+      "name": "MSD",
+      "location": "CSK",
+      "title": "goat finisher",
+      "priceInCrores": 25
+    },
+    {
+      "id": 7,
+      "name": "ABD",
+      "location": "RCB",
+      "title": "Mr 360",
+      "priceInCrores": 22.5
+    },
+    {
+      "id": 8,
+      "name": "rohit",
+      "location": "MI",
+      "title": "hitman",
+      "priceInCrores": 20
+    },
+    {
+      "name": "Muttiah Muralitharan",
+      "location": "SRH",
+      "title": "goat bowler",
+      "priceInCrores": 4.5,
+      "id": 9
+    },
+    {
+      "name": "Glenn Mcgrath",
+      "location": "AUS",
+      "title": "goat pace bowler",
+      "priceInCrores": 11.5,
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "cricket",
+      "postId": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

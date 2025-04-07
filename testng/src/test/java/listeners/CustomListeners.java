@@ -22,17 +22,17 @@ public class CustomListeners implements ITestListener {
 		System.out.println("Starts test execution..." + arg.getName());
 	}
 
-	// belong to ITestListener and will execute wehen a test is skipped
+	// belong to ITestListener and will execute when a test is skipped
 	public void onTestSkipped(ITestResult arg) {
 		System.out.println("skipped test..." + arg.getName());
 	}
 
-	// belong to ITestListener and will execute wehen a test is passed
+	// belong to ITestListener and will execute when a test is passed
 	public void onTestSucess(ITestResult arg) {
 		System.out.println("passed test..." + arg.getName());
 	}
 
-	// belong to ITestListener and will execute wehen a test is failed
+	// belong to ITestListener and will execute when a test is failed
 	public void onTestFailure(ITestResult arg) {
 		System.out.println("failed test..." + arg.getName());
 	}

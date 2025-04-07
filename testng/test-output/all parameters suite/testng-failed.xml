@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [all parameters suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="url" value="https://www.cricbuzz.com/"/>
+  <test thread-count="2" parallel="classes" name="all parameters with chrome(failed)">
+    <classes>
+      <class name="parameters.ParametersExample">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- parameters.ParametersExample -->
+    </classes>
+  </test> <!-- all parameters with chrome(failed) -->
+  <test thread-count="2" parallel="classes" name="all parameters with firefox(failed)">
+    <classes>
+      <class name="parameters.ParametersExample">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- parameters.ParametersExample -->
+    </classes>
+  </test> <!-- all parameters with firefox(failed) -->
+</suite> <!-- Failed suite [all parameters suite] -->

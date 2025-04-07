@@ -48,6 +48,6 @@ public class TestngAnnotationsDemo {
 
 	@AfterSuite
 	void AfterSuite() {
-		System.out.println("Before Suite");
+		System.out.println("After Suite");
 	}
 }
